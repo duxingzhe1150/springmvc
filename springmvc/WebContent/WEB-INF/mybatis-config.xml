@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+    PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<settings>
+		<setting name="lazyLoadingEnabled" value="false" />
+	</settings>
+	<typeAliases>
+	    <typeAlias alias="CheckOut" type="com.ys.smarthome.domain.CheckOut"/>
+	    <typeAlias alias="Transfer" type="com.ys.smarthome.domain.Transfer"/>
+        <typeAlias alias="RoomInfo" type="com.ys.smarthome.domain.RoomInfo"/>
+        <typeAlias alias="Account" type="com.ys.smarthome.domain.Account"/>
+        <typeAlias alias="TbCatering" type="com.ys.smarthome.domain.TbCatering"/>
+         <typeAlias alias="DeskAvaiable" type="com.ys.smarthome.domain.DeskAvaiable"/>
+        <typeAlias alias="cardstate" type="com.ys.smarthome.domain.Cardstate"/>
+
+	</typeAliases>
+	<mappers>
+		<mapper resource="com/ys/smarthome/xml/mapper/RoomInfoMapper.xml"/>
+		<mapper resource="com/ys/smarthome/xml/mapper/AccountMapper.xml"/>
+	    <mapper resource="com/ys/smarthome/xml/mapper/TbCateringMapper.xml"/>
+
+		<mapper resource="com/ys/smarthome/xml/mapper/OwnerMapper.xml"/>
+		<mapper resource="com/ys/smarthome/xml/mapper/ContractinfoMapper.xml"/>
+		<mapper resource="com/ys/smarthome/xml/mapper/ProxyMapper.xml"/>
+		<mapper resource="com/ys/smarthome/xml/mapper/FundsMapper.xml"/>
+		<mapper resource="com/ys/smarthome/xml/mapper/SellerMapper.xml"/>
+		<mapper resource="com/ys/smarthome/xml/mapper/ResidentMapper.xml"/>
+		<mapper resource="com/ys/smarthome/xml/mapper/UrgencyMapper.xml"/>
+		<mapper resource="com/ys/smarthome/xml/mapper/SeroperateMapper.xml"/>
+		<mapper resource="com/ys/smarthome/xml/mapper/FundoperflowMapper.xml"/>
+		<mapper resource="com/ys/smarthome/xml/mapper/TbDictMapper.xml"/>
+		<mapper resource="com/ys/smarthome/xml/mapper/LiveinfoMapper.xml"/>
+		<mapper resource="com/ys/smarthome/xml/mapper/EstateMapper.xml"/>
+		<mapper resource="com/ys/smarthome/xml/mapper/ThingListMapper.xml"/>
+		<mapper resource="com/ys/smarthome/xml/mapper/ThingChangeMapper.xml"/>
+		<mapper resource="com/ys/smarthome/xml/mapper/EmergencyInfoMapper.xml"/>
+		<mapper resource="com/ys/smarthome/xml/mapper/SubscriptionMapper.xml"/>
+		<mapper resource="com/ys/smarthome/xml/mapper/ResidentSickHistMapper.xml"/>
+		<mapper resource="com/ys/smarthome/xml/mapper/ResidentBasicHealthMapper.xml"/>
+		<mapper resource="com/ys/smarthome/xml/mapper/TbOverviewGoodsMapper.xml"/>
+		<mapper resource="com/ys/smarthome/xml/mapper/TbRoomGoodsMapper.xml"/>
+
+		<mapper resource="com/ys/smarthome/xml/mapper/DeskAvaiableMapper.xml"/>
+
+		
+		<mapper resource="com/ys/smarthome/xml/mapper/cardstateMapper.xml"/>
+		
+
+			<mapper resource="com/ys/smarthome/xml/mapper/TransferMapper.xml"/>
+			<mapper resource="com/ys/smarthome/xml/mapper/CheckOut.xml"/>
+		
+
+		<mapper resource="com/ys/smarthome/xml/mapper/TransferMapper.xml"/>
+
+
+	</mappers>
+</configuration>
